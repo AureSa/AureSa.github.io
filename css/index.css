@@ -2,8 +2,8 @@ body
 {
     margin-left: 15%;
     margin-right: 15%;
-	background-color: #222831;
-	color : white;
+	background-color: #282a36;
+	color : #f8f8f2;
 }
 
 html
@@ -19,23 +19,30 @@ footer {
 }
 
 a {
-    color: #C4BBF0;
+    color: #50fa7b;
 }
 
 h1{
+    color : #bd93f9;
     text-align: center;
 }
 
 h2{
+    color : #ff79c6;
     text-align: center;
 }
 
 h3{
+    color : #8be9fd;
     text-align: center;
 }
 
 hr{
-    color: #927FBF;
+    color: #6272a4;
+}
+
+.contact{
+    color: #ff5555;
 }
 
 .column {
