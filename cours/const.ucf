@@ -1,0 +1,44 @@
+# switches(0:7)
+NET "switches<0>" LOC = "T10";
+NET "switches<1>" LOC = "T9";
+NET "switches<2>" LOC = "V9";
+NET "switches<3>" LOC = "M8";
+NET "switches<4>" LOC = "N8";
+NET "switches<5>" LOC = "U8";
+NET "switches<6>" LOC = "V8";
+NET "switches<7>" LOC = "T5";
+
+# Led(0:7)
+NET "Led<0>" LOC = "U16";
+NET "Led<1>" LOC = "V16";
+NET "Led<2>" LOC = "U15";
+NET "Led<3>" LOC = "V15";
+NET "Led<4>" LOC = "M11";
+NET "Led<5>" LOC = "N11";
+NET "Led<6>" LOC = "R11";
+NET "Led<7>" LOC = "T11";
+
+## Button
+#NET "BTNL" LOC = "C4";
+#NET "BTNR" LOC = "D9";
+#NET "BTNU" LOC = "A8";
+#NET "BTND" LOC = "C9";
+#NET "BTNS" LOC = "B8";
+#
+## Anodes
+#NET "an<0>" LOC = "N16";
+#NET "an<1>" LOC = "N15";
+#NET "an<2>" LOC = "P18";
+#NET "an<3>" LOC = "P17";
+#
+## Segments
+#NET "seg<0>" LOC = "T17"; // CA
+#NET "seg<1>" LOC = "T18"; // CB
+#NET "seg<2>" LOC = "U17"; // CC
+#NET "seg<3>" LOC = "U18"; // CD
+#NET "seg<4>" LOC = "M14"; // CE
+#NET "seg<5>" LOC = "N14"; // CF
+#NET "seg<6>" LOC = "L14"; // CG
+#
+## Digital point
+#NET "dp" LOC = "M13";
