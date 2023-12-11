@@ -4,6 +4,9 @@ body
     margin-right: 15%;
 	background-color: #282a36;
 	color : #f8f8f2;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 html
@@ -12,10 +15,8 @@ html
 }
 
 footer {
-    display: block;
-    position:absolute;
-    bottom:0;
     height:15%;   /* Height of the footer */
+    margin-top: auto;
 }
 
 a {
